@@ -142,7 +142,7 @@ class LoginController extends Controller
     }
 
     /*
-    ** 
+    ** To user a Deskphone you need to enable this feature
     */
 
     function enableIpSoftphoneEmulation($credential, $phoneNumber)
@@ -404,7 +404,7 @@ class LoginController extends Controller
     }
 
     /* 
-    ** Log out
+    ** Log out and delete AlcCoockie
     */
 
     function deleteSession()
@@ -456,4 +456,6 @@ class LoginController extends Controller
         $this->getAllUsersInfo();
         return redirect('/user/edit');
     }
-}
+} 
+
+?>
