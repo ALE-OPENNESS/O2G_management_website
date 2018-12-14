@@ -29,6 +29,16 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Docker
+
+There is a Dockerfile in this project to simplify the deployment of the website.
+But, a this point, the Nginx server is not configured automatically.
+
+- To build : `docker build -t o2g-manag .`
+- To run it : `docker run -p 8080:80 o2g-manag`
+- To see what's in the docker with a terminal : `docker exec -ti o2g-manag bash`
+- To try the app, launch a web-browser and entre the http adresse `localhost:8080`
+
 ## How to deploy this website
 
 Pre-requisites
