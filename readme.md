@@ -31,7 +31,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Docker
 
-There is a Dockerfile in this project to simplify the deployment of the website.
+There is a `Dockerfile` in this project to simplify the deployment of the website.
 But, a this point, the Nginx server is not configured automatically.
 
 - To build : `docker build -t o2g-manag .`
@@ -40,6 +40,8 @@ But, a this point, the Nginx server is not configured automatically.
 - To try the app, launch a web-browser and entre the http adresse `localhost:8080`
 
 ## How to deploy this website
+
+The website is accessible today with this URL `https://o2g-manag.ale-aapp.com`
 
 Pre-requisites
 - PHP 7.1.4 or newer version of PHP --> https://ayesh.me/Ubuntu-PHP-7.2
